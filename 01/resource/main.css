@@ -40,6 +40,11 @@ body {
   top: 0px;
   box-shadow: rgba(0, 0, 0, 0.09) 0px 0px 0px 1px, rgba(0, 0, 0, 0.06) -2px 2px 2px, rgba(0, 0, 0, 0.06) -2px -2px 16px;
 }
+.box-left h3 {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+}
+
 .box-left h4 {
   font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 12px;
