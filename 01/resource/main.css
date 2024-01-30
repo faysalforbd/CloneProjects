@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: linear-gradient(to bottom, #de4129, #eaaf42);
+  background-image: linear-gradient(to bottom, #EB59F7, #01C7FC, #FFFF);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -128,6 +128,21 @@ body {
   }
 
 }
+
+.header-h1 {
+  Font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+ font-size: 13px;
+font-variant: lining-nums;
+font-weight: 700;
+letter-spacing: -0.3px;
+line-height: 28px;
+text-decoration: none solid rgba(31, 34, 37, 0.9);
+word-spacing: 0px;
+position: relative;
+left: 35%;
+top: 2%;
+}
+
 
 
 /* Box Left - Start */
