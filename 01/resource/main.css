@@ -16,7 +16,30 @@ body {
   height: 100vh;
 }
 
+/* Scrrol Bar - Start */
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #28afb0;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #19647e;
+}
+
+/* Scrrol Bar - End */
 
 /* Main  CSS - Master */
 .main {
@@ -104,10 +127,9 @@ padding-left: 15px;
     content: "\1F530"; /* Add the emoji unicode here */
     margin-right: 5px; /* Add spacing between emoji and text */
   }
-
 .toc div:hover {
     border: 0px solid #ddd; /* Add border */
     background-color: #E5E7EB;
   }
 
-/* Box Left - Start */
+/* Box Left - End */
