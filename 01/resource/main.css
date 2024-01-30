@@ -1,0 +1,24 @@
+/* Golobal CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter' sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #de4129, #eaaf42);
+  height: 100vh;
+}
+
+/* Main  CSS - Master */
+main {
+      width: 800px;
+      height: 100vh;
+      padding: 0px 0px 24px;
+      background-color: aliceblue;
+      position: absolute;
+      left: 25%;
+      right: 25%;
+
+}
