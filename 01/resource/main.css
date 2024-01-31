@@ -4,7 +4,7 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-    font-family: 'Inter', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 body {
@@ -119,10 +119,10 @@ body {
   height: .5rem;
   border: 0px solid black;
   position: relative;
-  top: -120px;
+  top: -80px;
   left: 45px;
   img {
-    height: 300px;
+    height: 280px;
     border: 0px solid black;
     border-radius: 1.5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -131,17 +131,37 @@ body {
 }
 
 .header-h1 {
-  Font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 13px;
+  font-family: Libre Franklin, Helvetica, sans-serif;
+  font-size: 18px;
   font-variant: lining-nums;
-  font-weight: 700;
+  font-weight: 300;
   letter-spacing: -0.3px;
   line-height: 28px;
   text-decoration: none solid rgba(31, 34, 37, 0.9);
   word-spacing: 0px;
   position: relative;
-  left: 35%;
-  top: 2%;
+  left: 34%;
+  top: 2.5%;
+}
+
+.movie-info1 {
+  position: relative;
+  left: 34%;
+  top: 4%;
+
+}
+
+.movie-info1-item {
+  font-size: 12px;
+  font-variant: lining-nums;
+  font-weight: 400;
+  letter-spacing: 0.01px;
+  line-height: 14.4px;
+  text-decoration: none ;
+  color: auto;
+  word-spacing: 0px;
+  display: inline-block;
+  padding-right: 10px;
 }
 
 
@@ -162,14 +182,12 @@ body {
 }
 
 .box-left h3 {
-  font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 16px;
   position: fixed; 
   top: 30px;
 }
 
 .box-left h4 {
-  font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 12px;
   font-variant: lining-nums;
   font-weight: 500;
@@ -188,7 +206,6 @@ body {
 }
 
 .toc div {
-  font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 13px;
   font-variant: lining-nums;
   font-weight: 500;
