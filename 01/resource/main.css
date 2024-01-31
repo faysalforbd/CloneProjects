@@ -44,16 +44,16 @@ body {
 
 /* Main  CSS - Master */
 .main {
-      width: 800px;
-      height: 105%;
-      padding: 0px 0px 24px;
-      border: 0px solid black;
-      border-radius: 12px;
-      background-color: #ffffff;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      position: relative;
-      left: 27%;
-      top: 20px;
+    width: 800px;
+    height: 105%;
+    padding: 0px 0px 24px;
+    border: 0px solid black;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    left: 27%;
+    top: 20px;
 }
 
 /* Yt cover - Start */
@@ -132,16 +132,16 @@ body {
 
 .header-h1 {
   Font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
- font-size: 13px;
-font-variant: lining-nums;
-font-weight: 700;
-letter-spacing: -0.3px;
-line-height: 28px;
-text-decoration: none solid rgba(31, 34, 37, 0.9);
-word-spacing: 0px;
-position: relative;
-left: 35%;
-top: 2%;
+  font-size: 13px;
+  font-variant: lining-nums;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  line-height: 28px;
+  text-decoration: none solid rgba(31, 34, 37, 0.9);
+  word-spacing: 0px;
+  position: relative;
+  left: 35%;
+  top: 2%;
 }
 
 
@@ -202,7 +202,7 @@ top: 2%;
   margin-top: 0px;
   margin-bottom: 3px;
   width: 14rem;
-  border: 0px solid #ddd; /* Add border */
+  border: 0px solid black; /* Add border */
   border-radius: 4px; /* Add border radius */
   padding: 8px ; /* Add padding */
   padding-left: 8%;
