@@ -248,6 +248,25 @@ padding-left: 15px;
   color: rgb(19, 6, 94);
 }
 
- /* Movie metadata - Start */
+ /* Movie metadata - End */
+
+
+ .movie-info2 {
+  position: relative;
+  left: 26%;
+  top: 3.5%;
+  font-family: 'Courier New', Courier, monospace;
+  Pre {
+    font-size: 14px;
+    font-variant: lining-nums;
+    font-weight: 300;
+    letter-spacing: 0.01px;
+    line-height: 14.4px;
+    text-decoration: none ;
+    color: auto;
+    word-spacing: 0px;
+  }
+}
+
 
 
