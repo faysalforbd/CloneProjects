@@ -42,6 +42,82 @@ body {
 
 /* Scrrol Bar - End */
 
+/* Box Left - Start */
+.box-left {
+  background-image: linear-gradient(to bottom, white, white);
+  backdrop-filter: blur(10px);
+  opacity: 0.95;
+  width: 256px;
+  height: 100vh;
+  padding-left: 12px;
+  padding-right: 12px;
+  position:fixed;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.015), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-left h3 {
+  font-size: 16px;
+  position: fixed; 
+  top: 30px;
+}
+
+.box-left h4 {
+  font-size: 12px;
+  font-variant: lining-nums;
+  font-weight: 500;
+  letter-spacing: 0.01px;
+  line-height: 14.4px;
+  text-decoration: none ;
+  color: #1F222580;
+  word-spacing: 0px;
+  position: fixed;
+  top: 10px;
+}
+
+.toc {
+  margin-top: 45px;
+  margin-left: 10px;
+}
+
+.toc div {
+  font-size: 13px;
+  font-variant: lining-nums;
+  font-weight: 500;
+  letter-spacing: -0.04px;
+  line-height: 16px;
+  text-decoration: none solid rgba(31, 34, 37, 0.9);
+  text-align: left;
+  white-space: nowrap;
+  word-spacing: 0px;
+  color: #1F2225;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  width: 14rem;
+  border: 0px solid black; /* Add border */
+  border-radius: 4px; /* Add border radius */
+  padding: 8px ; /* Add padding */
+  padding-left: 8%;
+  display: flex;
+	}
+
+#tocdiv-pad::before {
+padding-left: 15px;
+  
+}
+
+.toc div::before {
+    content: "\1F530"; /* Add the emoji unicode here */
+    margin-right: 5px; /* Add spacing between emoji and text */
+  }
+.toc div:hover {
+    border: 0px solid #ddd; /* Add border */
+    background-color: #E5E7EB;
+  }
+
+/* Box Left - End */
+
 /* Main  CSS - Master */
 .main {
     width: 800px;
@@ -51,7 +127,7 @@ body {
     border-radius: 12px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: relative;
+    position: absolute;
     left: 27%;
     top: 20px;
 }
@@ -164,80 +240,3 @@ body {
   padding-right: 10px;
 }
 
-
-
-/* Box Left - Start */
-.box-left {
-  background-image: linear-gradient(to bottom, white, white);
-  backdrop-filter: blur(10px);
-  opacity: 0.95;
-  width: 256px;
-  height: 100vh;
-  padding-left: 12px;
-  padding-right: 12px;
-  position:fixed;
-  left: 0px;
-  top: 0px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.015), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.box-left h3 {
-  font-size: 16px;
-  position: fixed; 
-  top: 30px;
-}
-
-.box-left h4 {
-  font-size: 12px;
-  font-variant: lining-nums;
-  font-weight: 500;
-  letter-spacing: 0.01px;
-  line-height: 14.4px;
-  text-decoration: none ;
-  color: #1F222580;
-  word-spacing: 0px;
-  position: fixed;
-  top: 10px;
-}
-
-.toc {
-  margin-top: 45px;
-  margin-left: 10px;
-}
-
-.toc div {
-  font-size: 13px;
-  font-variant: lining-nums;
-  font-weight: 500;
-  letter-spacing: -0.04px;
-  line-height: 16px;
-  text-decoration: none solid rgba(31, 34, 37, 0.9);
-  text-align: left;
-  white-space: nowrap;
-  word-spacing: 0px;
-  color: #1F2225;
-  margin-top: 0px;
-  margin-bottom: 3px;
-  width: 14rem;
-  border: 0px solid black; /* Add border */
-  border-radius: 4px; /* Add border radius */
-  padding: 8px ; /* Add padding */
-  padding-left: 8%;
-  display: flex;
-	}
-
-#tocdiv-pad::before {
-padding-left: 15px;
-  
-}
-
-.toc div::before {
-    content: "\1F530"; /* Add the emoji unicode here */
-    margin-right: 5px; /* Add spacing between emoji and text */
-  }
-.toc div:hover {
-    border: 0px solid #ddd; /* Add border */
-    background-color: #E5E7EB;
-  }
-
-/* Box Left - End */
