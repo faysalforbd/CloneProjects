@@ -1,14 +1,14 @@
 /* Golobal CSS */
 
 * {
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: 'Inter', "Noto Sans Bengali", sans-serif;
 }
 
 body {
-  background-image: linear-gradient(to bottom, #EB59F7, #01C7FC, #FFFF);
+  background-image: linear-gradient(to bottom, #EB59F7, #01C7FC);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -61,14 +61,13 @@ body {
   font-size: 16px;
   position: fixed; 
   top: 30px;
+   color: rgba(31, 34, 37, 0.9); color: rgba(31, 34, 37, 0.9);
 }
 
 .box-left h4 {
+  font-weight: 700;
+  font-style: normal;
   font-size: 12px;
-  font-variant: lining-nums;
-  font-weight: 500;
-  letter-spacing: 0.01px;
-  line-height: 14.4px;
   text-decoration: none ;
   color: #1F222580;
   word-spacing: 0px;
@@ -83,15 +82,10 @@ body {
 
 .toc div {
   font-size: 13px;
-  font-variant: lining-nums;
   font-weight: 500;
-  letter-spacing: -0.04px;
-  line-height: 16px;
-  text-decoration: none solid rgba(31, 34, 37, 0.9);
+  font-style: normal;
   text-align: left;
-  white-space: nowrap;
-  word-spacing: 0px;
-  color: #1F2225;
+  color: rgba(31, 34, 37, 0.9);
   margin-top: 0px;
   margin-bottom: 3px;
   width: 14rem;
@@ -207,14 +201,11 @@ padding-left: 15px;
 }
 
 .header-h1 {
-  font-family: Libre Franklin, Helvetica, sans-serif;
+  width: 74%;
   font-size: 18px;
-  font-variant: lining-nums;
-  font-weight: 380;
-  letter-spacing: -0.3px;
-  line-height: 28px;
+  font-weight: 700;
+  color: rgba(31, 34, 37, 0.9);
   text-decoration: none solid rgba(31, 34, 37, 0.9);
-  word-spacing: 0px;
   position: relative;
   left: 34%;
   top: 1.5%;
@@ -222,22 +213,19 @@ padding-left: 15px;
 
  /* Movie metadata - Start */
 .movie-info1 {
+  width: 74%;
   position: relative;
   left: 34%;
-  top: 3.5%;
+  top: 2.4%;
   display: flex;
 
 }
 
 .movie-info1-item {
   font-size: 13px;
-  font-variant: lining-nums;
   font-weight: 400;
-  letter-spacing: 0.01px;
-  line-height: 14.4px;
   text-decoration: none ;
   color: auto;
-  word-spacing: 0px;
   display: flex;
   padding-right: 20px;
   justify-content: space-evenly;
@@ -251,22 +239,74 @@ padding-left: 15px;
  /* Movie metadata - End */
 
 
- .movie-info2 {
+.movie-info2 {
   position: relative;
+  width: 74%;
   left: 26%;
-  top: 3.5%;
-  font-family: 'Courier New', Courier, monospace;
+  top: 2%;
   Pre {
     font-size: 14px;
-    font-variant: lining-nums;
     font-weight: 300;
-    letter-spacing: 0.01px;
-    line-height: 14.4px;
     text-decoration: none ;
-    color: auto;
+    color: grey;
     word-spacing: 0px;
   }
 }
 
+.movie-info3 {
+  position: relative;
+  left: 33%;
+  top: 2%;
+  display: flex;
+  padding-right: 200px;
 
+}
+.movie-info3-item {
+  font-size: 28px;
+  font-weight: 400;
+  text-decoration: none ;
+  color: black;
+  word-spacing: 0px;
+  display: flex;
+  align-items: center;
+  padding-right: 40px;
+  p {
+    font-size: 12px;
+    color: auto;
+    margin-left: 5px;
+  }
+}
 
+.header-nav
+{
+  position: relative;
+  left: 0%;
+  top: 7%;
+  padding-left: 10px;
+  padding-right: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add the box-shadow property */
+  
+}
+
+.header-nav-item {
+  height: 45px;
+  font-size: 16px;
+  border: none;
+  padding: 4px;
+  background-color: transparent;
+  font-weight: normal;
+  line-height: 16px;
+  text-decoration: none;
+  text-align: left;
+  color: #1F2225;
+  display: flex;
+  align-items: center;
+  :hover {
+    border: 1px solid rgb(2, 82, 231);
+    border-radius: 10px;
+  }
+
+}

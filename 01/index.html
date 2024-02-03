@@ -6,9 +6,6 @@
     <title>Movie Note Demo Page </title>
     <link rel="stylesheet" href="/01/resource/main.css">
     <link rel="stylesheet" href="/01/resource/note-elements.css">
-    <link rel="stylesheet" href="/01/resource/icon.css">
-    <script src="/01/resource/main.js"></script>
-    <script src="/01/resource/yt.js"></script>
 </head>
 <body>
     <aside>
@@ -52,7 +49,8 @@
                 <img src="/01/resource/icon-speech.svg" alt="" style="height: 12px; margin-right: 4px;"> English
             </div>
             <div class="movie-info1-item">  
-                <pre style="display: flex;"><p class="movie-type">Action</p>, <p class="movie-type">Drama</p>, <p class="movie-type">Si-FI</p></pre>
+                <pre style="display: flex;">
+                    <a href="" class="movie-type">Action</a>, <a href="" class="movie-type">Drama</a>, <a href="" class="movie-type">Si-FI</a></pre>
             </div>
             <div class="movie-info1-item">
                 <img src="/01/resource/icon-calender.svg" alt="" style="height: 12px; margin-right: 4px;"> 24-10-2023
@@ -69,7 +67,23 @@
                 been missing for over three decades
             </pre>
         </div>
-        
+        <div class="movie-info3">
+            <div class="movie-info3-item">
+                <img src="/01/resource/icon-star-01.svg" style="height: 32px; margin-right: 4px;"> 7.5
+                <p> Overall </p>
+            </div>
+            <div class="movie-info3-item">
+                <img src="/01/resource/icon-star-02.svg" style="height: 32px; margin-right: 4px;"> <div style="color: grey;">6.5</div>
+                <p style="color: rgb(39, 23, 23);"> Last time you watch </p>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="header-nav-item" style="color: chocolate;">
+                <button class="header-nav-item">
+                    <img src="/01/resource/icon-recent.svg" style="height: 24px; margin-right: 4px;"> Watchlist
+                </button>
+            </div>
+        </div>
     </div>
     </header>
 
@@ -78,4 +92,6 @@
     </main>
     
 </body>
+<script src="/01/resource/main.js"></script>
+<script src="/01/resource/yt.js"></script>
 </html>
